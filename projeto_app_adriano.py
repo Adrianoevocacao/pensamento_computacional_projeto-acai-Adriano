@@ -20,30 +20,26 @@ print("6. Redes sociais da empresa (meio de contato)")
 print("0. Sair")
 
 
-
-
-while True: 
+while True:
     escolha = input("\nEscolha uma opção: ")
 
     if escolha == '1':
         print("Mais procurados...")
-        # Código para mais procurados 
-    
+        print(" Açaí de 1L, Açaí de 300Ml, Açaí de 700Ml ")
+
     elif escolha == '2':
         print("Opções a deriva")
+        print(" Açaí de copo, Marmita de açaí, Barca açaí ")
+
     elif escolha == '3':
-        print("Montagem do proprio pedido")
+        print("Montagem do propio pedido")
+        print(" Escolher tamanho do açaí, Escolher extra, Escolher complementos ")
+
     elif escolha == '4':
-        print("Descontos e promoções")
-    elif escolha == '5':
-        print("Entregas e delivery")
-    elif escolha == '6': 
-        print("Redes sociais da empresa")
-    elif escolha == '0': 
-        print("Saindo do sistema")
-    elif escolha == '0':
-        print ("Saindo do sistemas. Até logo!")
-        break
+        print("Descontos e promoções ")
+        print(" Segunda do Açaí 20% de desconto em qualquer tamanho de açaí ")
+        print(" Combo Amigos Compre 2 açaís grandes e ganhe 10% de desconto ")
+        print("Monte Seu Açaí Na compra de um açaí médio ou grande, ganhe 1 adicional grátis")
 
 
 
@@ -51,7 +47,4 @@ while True:
 
 else:
     print("Opção invalida. Por favor, tente novamente.")
-
-
-
 
