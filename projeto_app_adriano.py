@@ -1,24 +1,24 @@
 '''
 CRUD
 
+#Açaiteria
 
-
-Açaiteria
-
-Permitir que o cliente escolha, personalize e pague seu açaí pelo celular, 
-com opção de entrega ou retirada.
-Adriano
+#Permitir que o cliente escolha e persionalize seu pedido e pague seu açaí
+#pelo celular, com opção de entrega ou retirada.
 '''
 
-print("\n=== AÇAÍTERIA ===")
+print("\n=== AÇAÍTERIA 3 IRMÃOS===")
 print("1. Mais procurados")
 print("2. Opções a deriva")
-print("3. Montagem do proprio pedido")
+print("3. Montagem do propio pedido")
 print("4. Descontos e promoções")
-print("5. Entregas (delivery)")
-print("6. Redes sociais da empresa (meio de contato)")
+print("5. Entregas (Delivery)")
+print("6. Redes socias da empresa")
+print("7. Preços")
+print("8. Opções de pagamento")
+print("9. Fale conosco")
+print("10. Feedback")
 print("0. Sair")
-
 
 while True:
     escolha = input("\nEscolha uma opção: ")
@@ -36,15 +36,50 @@ while True:
         print(" Escolher tamanho do açaí, Escolher extra, Escolher complementos ")
 
     elif escolha == '4':
-        print("Descontos e promoções ")
+        print("Preços e promoções ")
         print(" Segunda do Açaí 20% de desconto em qualquer tamanho de açaí ")
         print(" Combo Amigos Compre 2 açaís grandes e ganhe 10% de desconto ")
         print("Monte Seu Açaí Na compra de um açaí médio ou grande, ganhe 1 adicional grátis")
 
+    elif escolha == '5':
+        print("Entregas (delivery)")
+        print(" Ifood, 99, Keeta ")
+        print(" entrega gratis para pedidos acima de RS 3,00")
+    
+    elif escolha == '6':
+        print("Redes sociais da empresa")
+        print(" WhatsApp, TikTok, Instagram ")
 
 
+    elif escolha == '7':
+        print("Preços")
+        print(" Açaí de 1L: R$ 12,00 ")
+        print(" Açaí de 300Ml: R$ 8,00 ")
+        print(" Açaí de 700Ml: R$ 10,00 ")
+    
+    elif escolha == "8":
+        print("Opção 8: Sair do sistema")
+        print("Pix")
+        print("QRCODE")
+        print("Cartão de crédito/debito")
+        print("dinheiro no final da entrega ou retirada")
+   
+    elif escolha == '9':
+        print( "Suporte ao cliente")
+        print("Pedido errado")
+        print("Reembolso")
+        print("Duividas sobre o pedido")
+        print("Telefone: (11) 1234-5678")
+        print("Email: contato@acaíteria.com")
+    
+    elif escolha == '10':
+        print("Feedback")
+        print("Bom atendimento")
+        print("Pessimo atendimento")
+        print("Atendimento regular")
+        print("Entrega rapida")
+        print("Entrega demorada")
 
-
-else:
-    print("Opção invalida. Por favor, tente novamente.")
-
+    elif escolha == '0':
+        print("Saindo do sistema")
+        break
